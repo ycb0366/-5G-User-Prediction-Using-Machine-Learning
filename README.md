@@ -6,7 +6,7 @@ Objectives
 2.To familiarize with handling datasets, employing AI Python libraries, and understanding data characteristics in practical problems.
 3.To compare and analyze different models for accurate 5G user prediction.
 Data
-The dataset includes 60 features, comprising both categorical (cat_0 to cat_19) and numerical (num_0 to num_37) features. The target variable indicates whether a user is a 5G user.Data set uploaded in file name train.csv.
+The dataset includes 60 features, comprising both categorical (cat_0 to cat_19) and numerical (num_0 to num_37) features. The target variable indicates whether a user is a 5G user.Data set uploaded in file name "train.csv".Because the platform cannot upload large files. Data file "train. CSV" is divided for "train1. csv", "train2.csv", "train3.csv", "train4.csv", reader to download and merge the file itself, please.
 Methodology
 （1）Data Preprocessing: Identified low cardinality features and created new features by calculating their mean. Used PowerTransformer for transforming numerical features to approximate a Gaussian distribution.
 （2）Model Selection and Analysis: Explored various algorithms like Logistic Regression, Decision Trees, Random Forests, and ultimately selected LightGBM and Gaussian Naive Bayes for their effectiveness.
